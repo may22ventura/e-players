@@ -1,26 +1,26 @@
-/* Declaração das variaveis*/
 :root{
-    /* nome das variaveis */
-    --background: #1e1c21;
-    --pink: #fc1e88;
-    --black: #000000;
+    --background: #1E1C21;
+    --pink: #FC1E8B;
+    --purple: #7278C3;
     --blue: #00A8DC;
-
 }
 
-*{  margin: 0;
+*{
+    margin: 0;
     padding: 0;
-
 }
+
 body{
     background-color: var(--background);
     font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: white;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
 .gradient{
     background: rgba(252,30,137,1);
     background: -moz-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
@@ -31,28 +31,82 @@ a{
     background: linear-gradient(to right, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1e89', endColorstr='#7277c3', GradientType=1 );
 }
+
 .container{
     width: 80%;
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
+
+
 header .container{
     display: flex;
-    padding: 20px 0px;
+    justify-content: space-between;
+    padding: 20px 0;
 }
+
 header ul{
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    flex-flow: wrap;
 }
+
 header nav{
     width: 60%;
-    
 }
-header a {
+
+header a{
     text-transform: uppercase;
 }
+
 header img{
     margin-right: 100px;
+}
+
+
+.partidas{
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
+    background: rgba(66,44,90,1);
+    background: -moz-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,44,90,1)), color-stop(100%, rgba(16,15,17,1)));
+    background: -webkit-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0 );
+}
+
+.partidas .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: wrap;
+}
+
+.partida{
+    padding: 0 0 10px 0;
+}
+
+.partida img{
+    width: 40px;
+    padding: 0 10px;
+}
+
+.partida h2{
+    font-size: 14px;
+    text-align: start;
+    padding: 10px 0;
+}
+
+.partida div{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.red{
+    color: red;
 }

@@ -69,13 +69,13 @@ header img{
     text-align: center;
     width: 100%;
     min-height: 100px;
-    background: rgba(66,44,90,1);
-    background: -moz-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,44,90,1)), color-stop(100%, rgba(16,15,17,1)));
-    background: -webkit-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-    background: -o-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-    background: -ms-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-    background: linear-gradient(to bottom, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: rgba(161, 13, 142);
+    background: -moz-linear-gradient(top,  rgba(161, 13, 142) 0%, rgba(16,15,17,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(161, 13, 142)), color-stop(100%, rgba(16,15,17,1)));
+    background: -webkit-linear-gradient(top,  rgba(161, 13, 142) 0%, rgba(16,15,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(161, 13, 142) 0%, rgba(16,15,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(161, 13, 142) 0%, rgba(16,15,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(161, 13, 142) 0%, rgba(16,15,17,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0 );
 }
 
@@ -143,12 +143,46 @@ line-height: 40px;
 .ligas div{
     margin-bottom: 35px;
 }
-.sobre{
-    background-image: url(../img/Imagens/Teams/T6.jpg);
+.sobre_fundo{
+    background-image: url("../img/Imagens/Teams/T6.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    min-height: 200px;
+    min-height: 500px;
     clip-path: polygon(100% 0, 100% 72%, 0 94%, 0 21%);
+       
+}
+.sobre_fundo_filtro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background-color: rgba(255, 64, 156, 0.418);
+}
+.sobre{
+    position: relative;
+}
+.sobre img{
+position: absolute;
+z-index: 99;
+width: 100%;
+left: 300px;
+max-width: 27%;
+
+}
+.texto_sobre{
+    width: 40%;
+    text-align: right;
+   text-shadow: 0px 3px 3px #000;
+   margin-right: 120px;
+
+}
+.texto_sobre h2{
+    font-size: 30px;
+}
+.texto_sobre p{
+    font-size: 15px;
 }

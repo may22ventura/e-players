@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>E-Players</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" title="Acessar a página inicial do site">
+                <img src="img/Imagens/Logo.svg" alt="Logo do site E-Players">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Acessar página inicial">início</a></li>
+                    <li><a href="#sobre" title="Acessar sessão sobre o projeto">sobre</a></li>
+                    <li><a href="#noticias" title="Acessar sessão de notícias">notícias</a></li>
+                    <li><a href="cadastro.html" title="Acessar página de Cadastro">cadastre-se</a></li>
+                    <li><a href="login.html" title="Acessar página de Login">login</a></li>
+                    <li>
+                        <a href="#" title="Realizar busca no site">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="partidas">
+            <div class="container">
+
+                <div class="partida">
+                    <h2>Partidas em andamento</h2>
+                    <div>
+                        <strong>FLA</strong>
+                        <img src="img/Imagens/FLA.png" alt="Emblema do Flamengo">
+                        <i>VS</i>
+                        <img src="img/Imagens/SK.png" alt="Emblema do SK">
+                        <strong>SK</strong>
+                    </div>
+                    <i class="fas fa-circle red"></i> AO VIVO
+                </div>
+
+                <div class="partida">
+                    <h2>Próximas Partidas</h2>
+                    <div>
+                        <strong>FLA</strong>
+                        <img src="img/Imagens/FLA.png" alt="Emblema do Flamengo">
+                        <i>VS</i>
+                        <img src="img/Imagens/SK.png" alt="Emblema do SK">
+                        <strong>SK</strong>
+                    </div>
+                    12:30h
+                </div>
+
+                <div class="partida">
+                    <div>
+                        <strong>FLA</strong>
+                        <img src="img/Imagens/FLA.png" alt="Emblema do Flamengo">
+                        <i>VS</i>
+                        <img src="img/Imagens/SK.png" alt="Emblema do SK">
+                        <strong>SK</strong>
+                    </div>
+                    12:30h
+                </div>
+
+
+                <div class="partida">
+                    <div>
+                        <strong>FLA</strong>
+                        <img src="img/Imagens/FLA.png" alt="Emblema do Flamengo">
+                        <i>VS</i>
+                        <img src="img/Imagens/SK.png" alt="Emblema do SK">
+                        <strong>SK</strong>
+                    </div>
+                    12:30h
+
+
+
+                </div>
+
+                <div class="partida">
+                    <div>
+                        <strong>FLA</strong>
+                        <img src="img/Imagens/FLA.png" alt="Emblema do Flamengo">
+                        <i>VS</i>
+                        <img src="img/Imagens/SK.png" alt="Emblema do SK">
+                        <strong>SK</strong>
+                    </div>
+                    12:30h
+                </div>
+
+            </div>
+        </section>
+        <div class="banner_cadastro">
+            <h1>Cadastro do Jogador</h1>
+
+        </div>
+
+        <form action="" method="get" class="form_cadastro">
+
+            <div class="campo">
+                <label for="Nome">Nome do jogador</label>
+                <input type="text" name="nome jogador" id="nome">
+
+            </div>
+
+            <div class="campo">
+                <label for="Nick">Nick do jogador</label>
+                <input type="text" name="nick jogador" id="nick">
+
+            </div>
+            <div class="campo">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+
+            </div>
+
+            <div class="campo">
+                <label for="confirma_senha">Confirme a senha</label>
+                <input type="password" name="confirma_senha" id="confirma_senha">
+
+            </div>
+
+            <div class="campo">
+                <label for="data">Data de Nacimento</label>
+                <input type="date" name="data" id="data" min="1990-01-01" max="2020-03-05">
+
+            </div>
+
+            <div class="campo">
+                <label for="País">País</label>
+                <select name="pais" id="pais">
+                    <option value="BR">Brasil</option>
+                    <option value="EUA">Estados Unidos</option>
+                    <option value="PT">Portugal</option>
+                    <option value="ING">Inglaterra</option>
+
+                </select>
+            </div>
+            <div class="campo">
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="Masculino">
+                    <label for="mascilino">Masculino</label>
+                    <input type="radio" name="sexo" id="Feminino">
+                    <label for="Feminino">Feminino</label>
+                    <input type="radio" name="sexo" id="outro">
+                    <label for="outro">Outro</label>
+                </fieldset>
+            </div>
+            <div class="campo termos">
+                <input type="checkbox" name="termos" id="termos">
+                <label for="termos">Li e aceito os termos de uso do site.</label>
+
+            </div>
+            <div class="campo">
+                <button type="submit" class="btn gradient"> Cadastrar</button>
+            </div>
+
+
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <h3>Páginas</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cadastro.html">cadastre-se</a></li>
+                    <li><a href="#">Campeonato</a></li>
+                    <li><a href="#">sobre</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+
+
+                </ul>
+
+            </nav>
+
+            <div>
+                <img src="img/Imagens/Logo.svg" alt="logo">
+                <div class="social_midia">
+                    <i class="fab  fa-facebook"></i>
+                    <i class="fab  fa-instagram"></i>
+                    <i class="fab  fa-youtube"></i>
+                    <i class="fab  fa-twitter"></i>
+
+                </div>
+
+
+            </div>
+            <form action="" method="get">
+
+                <label for="email"> Entre para a lista vip</label>
+
+                <div>
+                    <input type="email" id="email" name="email_usuario">
+                    <button type="submit" class="gradient btn">Enviar</button>
+
+                </div>
+            </form>
+
+        </div>
+        <p>&copy; COPYRIGHT - Todos os direitos reservados - SENAI de Informática E-Sports</p>
+    </footer>
+
+</body>
+
+</html>

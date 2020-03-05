@@ -328,3 +328,71 @@ footer p{
     color: #6d6d6d;
     text-transform: uppercase;
 }
+/* incicio da pagina de cadastro */
+
+.banner_cadastro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 273px;
+    text-transform: uppercase;
+    background-image: url(../img/Imagens/cadastro.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.banner_cadastro h1{
+    font-size: 2.7em;
+    text-transform: uppercase;
+
+}
+/* formulario */
+.form_cadastro{
+    width: 100%;
+    max-width: 400px;
+    margin: 10em auto;
+    box-shadow: 0px 5px 40px #000, 0px -3px 10px rgb(255, 70, 160), 0px 10px 20px rgb(157, 96, 238);
+    padding: 1.5em;
+    border-radius: 20px;
+}
+.campo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+.campo label{
+    text-transform: unset
+}
+input[type="text"],
+input[type="password"],
+.campo input[type="email"],
+input[type="date"],
+section{
+    width: 60%;
+    border: none;
+    background-color: #1E1C21;
+    outline: none;
+    border-bottom: solid 1px #818181;
+    color: #ccc;
+}
+.campo input:focus{
+    background-color: #2f2f2f;
+}
+.campo fieldset{
+    border: none;
+}
+.campo fieldset label{
+    margin: 1em 1em 2em 0;
+
+}
+.termos{
+    justify-content: unset;
+    align-items: center;
+}
+.termos input{
+    margin-right: 0.5em;
+}
+.btn{
+    margin: auto;
+
+}

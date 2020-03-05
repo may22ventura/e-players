@@ -224,7 +224,7 @@ max-width: 27%;
     padding: 2em;
 }
 .card div:hover{
-    background-color: #363633;
+    background-color: #353336;
     height: 100%;
     transition-duration: 0.5s;
 }
@@ -252,6 +252,79 @@ article{
 footer{
     background-color: black;
     box-shadow: 0px -6px 10px #000;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 30%, rgba(30,28,33,1) 100%);
+    min-height: 250px;
+    padding: 2em 0;
+    
+    
+
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer nav h3{
+    font-size: 1.6em;
+    color: #6d6d6d;
+    margin-bottom: 1em;
+    
+}
+footer img{
+    padding: 30px;
     
 }
 
+footer nav ul{
+    list-style-type: none;
+}
+footer nav li{
+    margin-bottom: 0.5em;
+}
+footer nav a:hover{
+    border-bottom: solid 1px var(--pink); 
+}
+
+/* Inicio da configuração rodapé */
+
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+footer form label{
+    font-size: 2em;
+    font-weight: bold;
+    color: #646464; margin-bottom: 0.3em;
+}
+footer form input{
+    height: 2em;
+    width: 15em;
+    margin-right: -5px;
+    outline: none; 
+    
+}
+.btn{
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 0.58em 2em;
+    cursor: pointer;
+
+}
+.social_midia{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 2.5em;
+    background: linear-gradient(to top, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+footer p{
+    text-align: center;
+    font-size: 1em ;
+    color: #6d6d6d;
+    text-transform: uppercase;
+}

@@ -490,7 +490,7 @@ header .fa-bars{
         align-items: center;
     }
     header .container div a{
-        margin-left: 7em;
+        margin-left: 4em;
     }
     #menu{
         position: absolute;
@@ -509,9 +509,90 @@ header .fa-bars{
     #menu a{
         display: block;
         padding: 0.5em 0;
-
+    }
+    .partidas .container{
+        width: 97%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .em_andamento{
+        width: 37%;
+        align-self: flex-start;
+        margin-left: 1em;
+         
+    }   
+    .proximas_partidas{
+        width: 90%;
+        align-items: center;
+    }
+    .partidas img{
+        width: 30px;
+        padding: 0 10px;
+    }
+    .banner {
+        height: 250px;
+    }
+    .banner img{
+        max-width: 90px;
+    }
+    .ligas {
+        display: flex;
+       flex-direction: column;
+       flex-flow: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+    .texto_ligas{
+        width: 100%;
+        text-align: center;   
+    }
+    .ligas img{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .sobre img{
+        width: 33%;
+        top: 210px;
+        margin-left: 10px;
+        left: -8px;
+ 
+    }
+    .texto_sobre{
+        width: 90%;
+        margin-right: 30px;
+        margin-top: -85px;
+        l
+    }
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+        width: 95%;
+    }
+    .content section{
+        width: 90%;
+        margin: auto;
+    }
+    .content article{
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card img {
+        width: 100%;
+        margin: 0;
+    }
+    .card div{
+        padding: 15px 15px;
     }
 
+    
 
     
 }
